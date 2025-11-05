@@ -8,9 +8,19 @@ import devfolio from "../assets/devfolio.png";
 import bookmarker from "../assets/bookmarker.png";
 import glassFiltter from "../assets/glass-filtter.png";
 import daniels from "../assets/daniels.png";
+import freshify from "../assets/freshify.png"
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Freshify - E-commerce app",
+      description:
+        "A modern e-commerce web app built with Next.js and TypeScript, featuring dynamic product listings, cart management, and a responsive shopping experience.",
+      image: freshify,
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "CSS", "HTML"],
+      github: "https://github.com/KarimASoliman3/freshify",
+      demo: "https://freshify-beta.vercel.app/",
+    },
     {
       title: "Linked Post - Social App",
       description:
