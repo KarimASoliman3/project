@@ -9,6 +9,7 @@ import bookmarker from "../assets/bookmarker.png";
 import glassFiltter from "../assets/glass-filtter.png";
 import daniels from "../assets/daniels.png";
 import freshify from "../assets/freshify.png"
+import YumRun from "../assets/yumRun.png"
 
 const Projects = () => {
   const projects = [
@@ -39,6 +40,14 @@ const Projects = () => {
       github: "https://github.com/KarimASoliman3/Skillpath",
       demo: "https://skillpath-k7w8-5nxaivemp-karimasoliman3s-projects.vercel.app/",
     },
+    {
+      title: 'YumRun - FoodDelivery app',
+      description: 'An online food delivery web application where users can browse menus, place orders, and track delivery status.',
+      image:YumRun,
+      tech: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
+      github: 'https://github.com/KarimASoliman3/Food-delivery',
+      demo: 'https://yumrun-food-delivery.netlify.app/'
+    },    
     {
       title: "Weather API App",
       description:
